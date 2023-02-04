@@ -224,3 +224,67 @@ ul {
 .icons img {
   margin-left: 10px;
 }
+
+.right-sidebar {
+  grid-row: 1/-1;
+}
+.announcements {
+  margin-bottom: 40px;
+}
+
+.announcements h2 {
+  margin-bottom: 30px;
+}
+
+.announcements-box {
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 3px #000;
+  width: 350px;
+}
+
+.announcements-card {
+  padding: 20px;
+  border-bottom: 1px solid #cac8c8;
+}
+
+.announcements-card:last-child {
+  border-bottom: none;
+}
+
+.announcements-card .title {
+  font-weight: 700;
+}
+
+.announcements-card p:last-child {
+  font-size: 0.9rem;
+  color: #4b4848;
+}
+
+.trending-box {
+  background-color: #fff;
+  margin-top: 15px;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 0 3px #000;
+  width: 350px;
+}
+
+.trending-card {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.trending-card img {
+  margin-right: 30px;
+}
+
+.trending-card p {
+  font-size: 0.9rem;
+  color: #4b4848;
+}
+.trending-card .title {
+  font-weight: 700;
+  color: #000;
+}
